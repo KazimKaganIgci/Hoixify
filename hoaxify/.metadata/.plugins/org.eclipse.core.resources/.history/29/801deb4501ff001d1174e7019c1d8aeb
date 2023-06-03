@@ -1,0 +1,14 @@
+package com.hoaxify.ws.user;
+
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
+
+public class UniqueUsernameValidator implements ConstraintValidator<UniqueUsername,String>{
+
+	@Override
+	public boolean isValid(String username, ConstraintValidatorContext context) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

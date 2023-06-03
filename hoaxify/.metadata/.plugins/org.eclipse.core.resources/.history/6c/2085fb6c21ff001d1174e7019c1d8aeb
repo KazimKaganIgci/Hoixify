@@ -1,0 +1,1 @@
+jakarta.validation.constraints.NotNull.message =username can not be null

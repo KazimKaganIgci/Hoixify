@@ -1,0 +1,7 @@
+package com.hoaxify.ws.error;
+
+@Data
+public class ApiError {
+	
+	
+}
